@@ -4,17 +4,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
 body {
   width: 100dvw;
   height: 100dvh;
   font-family: 'Outfit', sans-serif;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
