@@ -2,7 +2,7 @@
     Frontend Mentor Challenges
 </h1>
 
-## :bookmark: Sobre
+## :bookmark: About
 
 Repository created to record all my solutions for Frontend Mentor, from easy to the most difficult level.
 
@@ -20,7 +20,7 @@ Repository created to record all my solutions for Frontend Mentor, from easy to 
 ---
 
 <h4 align="center">
-    Feito com 💙 by <a
+    Coded with 💙 by <a
       href="https://www.linkedin.com/in/dominguetigs/"
       target="_blank"
     >Gustavo Domingueti</a>

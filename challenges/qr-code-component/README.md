@@ -9,13 +9,9 @@
   >DEMO</a>
 </h3>
 
-<a id="sobre"></a>
-
-## :bookmark: Sobre
+## :bookmark: About
 
 Simple QR code component using HTML and CSS
-
-<a id="tecnologias-utilizadas"></a>
 
 ## :rocket: Tecnologies
 
@@ -34,7 +30,7 @@ Simple QR code component using HTML and CSS
 ---
 
 <h4 align="center">
-    Feito com 💙 by <a
+    Coded with 💙 by <a
       href="https://www.linkedin.com/in/gustavodomingueti/"
       target="_blank"
     >Gustavo Domingueti</a>
