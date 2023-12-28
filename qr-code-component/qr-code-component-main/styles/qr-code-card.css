@@ -1,0 +1,36 @@
+.card {
+  background-color: var(--white);
+  border-radius: 1.25rem;
+  box-shadow: var(--card-box-shadow);
+  max-width: 320px;
+}
+
+.card .container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.card .container img {
+  border-radius: 0.625rem;
+}
+
+.card .content {
+  padding: 1.5rem 1rem;
+}
+
+.card .content h1 {
+  color: var(--dark-blue);
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.card .content p {
+  color: var(--grayish-blue);
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 1rem;
+  text-align: center;
+}
