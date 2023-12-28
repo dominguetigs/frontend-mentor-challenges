@@ -12,10 +12,10 @@ Repository created to record all my solutions for Frontend Mentor, from easy to 
 
 ### Newbie
 
-| Name                                                                        | Status |
-| --------------------------------------------------------------------------- | ------ |
-| [QR code component](./challenges/qr-code-component/qr-code-component-main/) | Done   |
-| _Results summary component_                                                 | Doing  |
+| Name                                                 | Status |
+| ---------------------------------------------------- | ------ |
+| [QR code component](./challenges/qr-code-component/) | Done   |
+| _Results summary component_                          | Doing  |
 
 ---
 
