@@ -1,0 +1,9 @@
+main {
+  height: 100%;
+  padding: 2rem;
+  width: 100%;
+}
+
+main ul {
+  margin-top: 4rem;
+}

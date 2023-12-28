@@ -1,9 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 :root {
   /* Colors */
   --anchor: hsl(228, 45%, 44%);
@@ -18,9 +12,7 @@
 
 body {
   background-color: var(--light-gray);
-  font-family: 'Outfit', sans-serif;
-  height: 100dvh;
-  width: 100dvw;
+  font-family: "Outfit", sans-serif;
 }
 
 main {
