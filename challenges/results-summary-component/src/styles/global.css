@@ -1,0 +1,14 @@
+:root {
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Hanken Grotesk Variable", "Hanken Grotesk", sans-serif;
+  height: 100dvh;
+  width: 100dvw;
+}
