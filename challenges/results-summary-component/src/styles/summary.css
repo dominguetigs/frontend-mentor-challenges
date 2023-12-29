@@ -3,6 +3,8 @@
   box-shadow: var(--card-box-shadow);
   display: flex;
   flex-direction: column;
+  max-width: 375px;
+  width: 100%;
 }
 
 .card .results {
@@ -10,10 +12,10 @@
   background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
   border-radius: 0 0 2rem 2rem;
   display: flex;
+  flex: 1 1 auto;
   flex-direction: column;
   justify-content: center;
-  max-width: 23rem;
-  padding: 1.5rem 3rem 2.5rem;
+  padding: 1.5rem 3rem;
 }
 
 .card .results .title {
@@ -66,7 +68,10 @@
 }
 
 .card .summary {
+  flex: 1 1 auto;
+  height: auto;
   padding: 2rem;
+  width: 100%;
 }
 
 .card .summary .title {
@@ -94,32 +99,15 @@
 }
 
 .card .summary ul li.reaction-summary {
-  border-radius: 0.75rem;
-  background: var(
-    --red-95-white,
-    linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.95) 0%,
-      rgba(255, 255, 255, 0.95) 100%
-    ),
-    var(--light-red)
-  );
+  background-color: var(--light-red);
 }
 
 .card .summary ul li.reaction-summary div:first-child span {
-  color: var(--light-red);
+  color: var(--red);
 }
 
 .card .summary ul li.memory-summary {
-  background: var(
-    --yellow-95-white,
-    linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.95) 0%,
-      rgba(255, 255, 255, 0.95) 100%
-    ),
-    var(--orangey-yellow)
-  );
+  background-color: var(--light-orangey-yellow);
 }
 
 .card .summary ul li.memory-summary div:first-child span {
@@ -127,15 +115,7 @@
 }
 
 .card .summary ul li.verbal-summary {
-  background: var(
-    --green-95-white,
-    linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.95) 0%,
-      rgba(255, 255, 255, 0.95) 100%
-    ),
-    var(--green-teal)
-  );
+  background-color: var(--light-green-teal);
 }
 
 .card .summary ul li.verbal-summary div:first-child span {
@@ -143,15 +123,7 @@
 }
 
 .card .summary ul li.visual-summary {
-  background: var(
-    --blue-95-white,
-    linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.95) 0%,
-      rgba(255, 255, 255, 0.95) 100%
-    ),
-    var(--cobal-blue)
-  );
+  background-color: var(--light-cobal-blue);
 }
 
 .card .summary ul li.visual-summary div:first-child span {
@@ -180,10 +152,16 @@
   opacity: 1;
 }
 
+.card .summary button {
+  margin-top: 1.5rem;
+}
+
 @media screen and (min-width: 768px) {
   .card {
     border-radius: 2rem;
     flex-direction: row;
+    height: auto;
+    max-width: 46rem;
   }
 
   .card .results {
@@ -219,10 +197,6 @@
     padding: 2.5rem;
   }
 
-  .card .summary ul {
-    min-width: 18rem;
-  }
-
   .card .summary .title {
     font-size: 1.5rem;
     margin-bottom: 1.75rem;
@@ -234,5 +208,9 @@
 
   .card .summary ul li div:last-child span {
     font-size: 1.125rem;
+  }
+
+  .card .summary button {
+    margin-top: 2.5rem;
   }
 }

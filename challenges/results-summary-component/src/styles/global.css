@@ -1,9 +1,13 @@
 :root {
   /* Primary colors */
   --cobal-blue: hsl(234, 85%, 45%);
+  --light-cobal-blue: #f3f4fd;
   --green-teal: hsl(166, 100%, 37%);
-  --light-red: hsl(0, 100%, 67%);
+  --light-green-teal: #f3fbf9;
+  --red: hsl(0, 100%, 67%);
+  --light-red: #fff6f7;
   --orangey-yellow: hsl(39, 100%, 56%);
+  --light-orangey-yellow: #fffbf4;
 
   /* Neutral colors */
   --white: hsl(0, 0%, 100%);
@@ -32,8 +36,6 @@
 body {
   font-family: "Hanken Grotesk Variable", "Hanken Grotesk", sans-serif;
   font-feature-settings: "clig" off, "liga" off;
-  height: 100dvh;
-  width: 100dvw;
 }
 
 main {
@@ -41,5 +43,5 @@ main {
   display: flex;
   height: 100%;
   justify-content: center;
-  width: 100%;
+  min-height: 100dvh;
 }
