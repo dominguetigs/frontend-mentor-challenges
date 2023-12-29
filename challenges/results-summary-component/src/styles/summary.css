@@ -148,6 +148,11 @@
   opacity: 0.5;
 }
 
+.card .summary ul li div:last-child .separator {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
 .card .summary ul li div:last-child span:first-child {
   opacity: 1;
 }
