@@ -13,7 +13,7 @@
 
   /* Gradient colors */
   --light-slate-blue: hsl(252, 100%, 67%);
-  --light-raoyal-blue: hsl(241, 81%, 54%);
+  --light-royal-blue: hsl(241, 81%, 54%);
   --violet-blue: hsla(256, 72%, 46%, 1);
   --persian-blue: hsla(241, 72%, 46%, 0);
 
@@ -36,10 +36,9 @@ body {
 }
 
 main {
+  align-items: center;
+  display: flex;
   height: 100%;
+  justify-content: center;
   width: 100%;
-}
-
-p {
-  font-size: 18px;
 }
