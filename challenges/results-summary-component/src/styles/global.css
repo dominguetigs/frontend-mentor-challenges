@@ -31,6 +31,7 @@
 
 body {
   font-family: "Hanken Grotesk Variable", "Hanken Grotesk", sans-serif;
+  font-feature-settings: "clig" off, "liga" off;
   height: 100dvh;
   width: 100dvw;
 }
