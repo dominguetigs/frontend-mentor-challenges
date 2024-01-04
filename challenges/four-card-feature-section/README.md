@@ -23,8 +23,8 @@ Simple Four card feature section using HTML and CSS
 ## :iphone: Screens
 
 <h1 align="center">
-  <img alt="QR code component (Mobile)" title="#qr-code-component-mobile" src=".github/qr-code-component-mobile.png" width="100px">
-  <img alt="QR code component (Desktop)" title="#qr-code-component-desktop" src=".github/qr-code-component-desktop.png" width="400px">
+  <img alt="Four card feature section (Mobile)" title="#four-card-feature-section-mobile" src=".github/four-card-feature-section-mobile.png" width="100px">
+  <img alt="Four card feature section (Desktop)" title="#four-card-feature-section-desktop" src=".github/four-card-feature-section-desktop.png" width="400px">
 </h1>
 
 ---
