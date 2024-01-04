@@ -1,0 +1,24 @@
+:root {
+  --anchor: hsl(228, 45%, 44%);
+  --blue: hsl(212, 86%, 64%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --red: hsl(0, 78%, 62%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}

@@ -32,7 +32,7 @@ Simple results summary component using HTML, CSS and JS
 
 <h4 align="center">
     Coded with 💙 by <a
-      href="https://www.linkedin.com/in/gustavodomingueti/"
+      href="https://www.linkedin.com/in/dominguetigs/"
       target="_blank"
     >Gustavo Domingueti</a>
 </h4>

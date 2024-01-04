@@ -1,17 +1,17 @@
 <h1 align="center">
-  QR code component
+  Four card feature section
 </h1>
 
 <h3 align="center">
   <a
-    href="https://fmc-qr-code-component.vercel.app/"
+    href="https://fmc-four-card-feature-section.vercel.app/"
     target="_blank"
   >DEMO</a>
 </h3>
 
 ## :bookmark: About
 
-Simple QR code component using HTML and CSS
+Simple Four card feature section using HTML and CSS
 
 ## :rocket: Tecnologies
 
