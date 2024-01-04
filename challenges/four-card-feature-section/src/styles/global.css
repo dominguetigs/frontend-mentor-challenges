@@ -1,9 +1,17 @@
 :root {
+  /* Colors */
   --anchor: hsl(228, 45%, 44%);
   --blue: hsl(212, 86%, 64%);
   --cyan: hsl(180, 62%, 55%);
   --orange: hsl(34, 97%, 64%);
   --red: hsl(0, 78%, 62%);
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
+  --white: #fff;
+
+  /* Box shadows */
+  --card-box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
 }
 
 * {
@@ -14,11 +22,19 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  height: 100%;
-  width: 100%;
 }
 
 main {
-  height: 100%;
-  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100dvh;
+  padding: 5rem 2rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  main {
+    padding: 0 2rem;
+  }
 }
