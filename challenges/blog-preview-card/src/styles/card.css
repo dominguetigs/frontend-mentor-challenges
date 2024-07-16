@@ -1,0 +1,102 @@
+.card {
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  border-radius: 1.25rem;
+  box-shadow: var(--card-box-shadow-sm);
+  cursor: pointer;
+  height: auto;
+  max-width: 384px;
+  padding: 24px;
+  width: 100%;
+}
+
+.card-header {
+  height: auto;
+  width: 100%;
+}
+
+.card-header__image {
+  background-image: url("../assets/images/illustration-article.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.625rem;
+  height: 200px;
+  width: 100%;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.card-content__badge {
+  background-color: var(--primary);
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  width: max-content;
+}
+
+.card-content__badge > span {
+  color: var(--black);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+.card-content__date {
+  color: var(--black);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.card-content__title {
+  color: var(--primary);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+.card-content__description {
+  color: var(--grey);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.card-footer {
+  height: auto;
+  width: 100%;
+}
+
+.card-footer > .avatar {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+
+.card-footer > .avatar > .avatar-image {
+  height: 32px;
+  width: 32px;
+}
+
+.card-footer > .avatar > .avatar-name {
+  color: var(--black);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    box-shadow: var(--card-box-shadow-md);
+  }
+}

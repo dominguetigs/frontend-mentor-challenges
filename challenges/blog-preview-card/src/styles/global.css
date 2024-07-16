@@ -1,0 +1,43 @@
+:root {
+  --primary: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
+  --anchor: hsl(228, 45%, 44%);
+
+  --paragraph: 1rem;
+
+  --card-box-shadow-sm: 8px 8px 0px 0px #000;
+  --card-box-shadow-md: 16px 16px 0px 0px #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: var(--primary);
+  font-family: "Figtree", sans-serif;
+  font-feature-settings: "clig" off, "liga" off;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  height: 100dvh;
+  justify-content: center;
+  padding: 24px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 120%;
+  }
+}

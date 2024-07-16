@@ -1,34 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Blog preview card</title>
 
-  Learning
+    <link rel="stylesheet" href="./styles/typography.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/card.css" />
+  </head>
 
-  Published 21 Dec 2023
+  <body>
+    <main>
+      <div class="card">
+        <div class="card-header">
+          <div
+            class="card-header__image"
+            aria-label="illustration article"
+          ></div>
+        </div>
 
-  HTML & CSS foundations
+        <div class="card-content">
+          <div class="card-content__badge"><span>Learning</span></div>
+          <p class="card-content__date">
+            Published <time datetime="2023-12-21">21 Dec 2023</time>
+          </p>
+          <h2 class="card-content__title">HTML & CSS foundations</h2>
+          <p class="card-content__description">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </div>
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
+        <div class="card-footer">
+          <div class="avatar">
+            <img
+              class="avatar-image"
+              src="./assets/images/image-avatar.webp"
+              alt="Avatar"
+            />
+            <p class="avatar-name">Greg Hooper</p>
+          </div>
+        </div>
+      </div>
+    </main>
 
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Frontend Mentor </a
+      >. Coded by
+      <a href="https://www.linkedin.com/in/dominguetigs/">
+        Gustavo Domingueti </a
+      >.
+    </footer>
+  </body>
 </html>
