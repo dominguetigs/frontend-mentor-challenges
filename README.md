@@ -4,21 +4,18 @@
 
 ## :bookmark: About
 
-Repository created to record all my solutions for Frontend Mentor, from Newbie to the most difficult level (Guru).
+Repository created to record all my solutions for Frontend Mentor, from (Newbie) to the most difficult level (Guru).
 
 <a id="tecnologias-utilizadas"></a>
 
 ## :rocket: Challenges
 
-| Name                                                                 | Difficulty   | Status    |
-| -------------------------------------------------------------------- | ------------ | --------- |
-| [QR code component](./challenges/qr-code-component/)                 | Newbie       | DONE      |
-| [Results summary component](./challenges/results-summary-component/) | Newbie       | DONE      |
-| [Four card feature section](./challenges/four-card-feature-section/) | Newbie       | DONE      |
-| **GitHub user search app**                                           | Junior       | **DOING** |
-| _Frontend Quiz app_                                                  | Intermediate | _TODO_    |
-| _Pomodoro app_                                                       | Advanced     | _TODO_    |
-| _Kanban task management web app_                                     | Guru         | _TODO_    |
+| Name                                                                 | Difficulty |
+| -------------------------------------------------------------------- | ---------- |
+| [QR code component](./challenges/qr-code-component/)                 | Newbie     |
+| [Results summary component](./challenges/results-summary-component/) | Newbie     |
+| [Four card feature section](./challenges/four-card-feature-section/) | Newbie     |
+| [Blog preview card](./challenges/blog-preview-card/)                 | Newbie     |
 
 ---
 
