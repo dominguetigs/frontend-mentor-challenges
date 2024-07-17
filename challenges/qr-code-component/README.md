@@ -4,7 +4,7 @@
 
 <h3 align="center">
   <a
-    href="https://fmc-qr-code-component.vercel.app/"
+    href="https://dominguetigs.github.io/frontend-mentor-challenges/challenges/qr-code-component/src/index.html"
     target="_blank"
   >DEMO</a>
 </h3>

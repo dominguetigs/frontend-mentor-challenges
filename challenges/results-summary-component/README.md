@@ -4,7 +4,7 @@
 
 <h3 align="center">
   <a
-    href="https://fmc-results-summary-component.vercel.app/"
+    href="https://dominguetigs.github.io/frontend-mentor-challenges/challenges/results-summary-component/src/index.html"
     target="_blank"
   >DEMO</a>
 </h3>

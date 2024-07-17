@@ -4,7 +4,7 @@
 
 <h3 align="center">
   <a
-    href="https://fmc-blog-preview-card.vercel.app/"
+    href="https://dominguetigs.github.io/frontend-mentor-challenges/challenges/blog-preview-card/src/index.html"
     target="_blank"
   >DEMO</a>
 </h3>
