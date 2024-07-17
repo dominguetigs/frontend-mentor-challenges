@@ -4,7 +4,7 @@
 
 <h3 align="center">
   <a
-    href="https://dominguetigs.github.io/frontend-mentor-challenges/challenges/social-link-profile/src/index.html"
+    href="https://dominguetigs.github.io/frontend-mentor-challenges/challenges/social-links-profile/src/index.html"
     target="_blank"
   >DEMO</a>
 </h3>
@@ -23,8 +23,8 @@ Social links profile using HTML and CSS
 ## :iphone: Screens
 
 <h1 align="center">
-  <img alt="Results summary component (Mobile)" title="#social-link-profile-mobile" src=".github/social-link-profile-mobile.png" width="100px">
-  <img alt="Results summary component (Desktop)" title="#social-link-profile-desktop" src=".github/social-link-profile-desktop.png" width="400px">
+  <img alt="Results summary component (Mobile)" title="#social-links-profile-mobile" src=".github/social-links-profile-mobile.png" width="100px">
+  <img alt="Results summary component (Desktop)" title="#social-links-profile-desktop" src=".github/social-links-profile-desktop.png" width="400px">
 </h1>
 
 ---
