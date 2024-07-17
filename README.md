@@ -16,6 +16,7 @@ Repository created to record all my solutions for Frontend Mentor, from (Newbie)
 | [Results summary component](./challenges/results-summary-component/) | Newbie     |
 | [Four card feature section](./challenges/four-card-feature-section/) | Newbie     |
 | [Blog preview card](./challenges/blog-preview-card/)                 | Newbie     |
+| [Social links profile](./challenges/social-links-profile/)           | Newbie     |
 
 ---
 
