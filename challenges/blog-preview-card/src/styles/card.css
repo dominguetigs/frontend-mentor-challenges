@@ -16,7 +16,7 @@
 }
 
 .card-header__image {
-  background-image: url("../assets/images/illustration-article.svg");
+  background-image: url("../../assets/images/illustration-article.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

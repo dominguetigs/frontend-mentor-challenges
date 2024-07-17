@@ -3,18 +3,11 @@
   --white: hsl(0, 0%, 100%);
   --grey: hsl(0, 0%, 50%);
   --black: hsl(0, 0%, 7%);
-  --anchor: hsl(228, 45%, 44%);
 
   --paragraph: 1rem;
 
   --card-box-shadow-sm: 8px 8px 0px 0px #000;
   --card-box-shadow-md: 16px 16px 0px 0px #000;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 html {

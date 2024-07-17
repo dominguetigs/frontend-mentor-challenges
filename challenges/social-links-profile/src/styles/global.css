@@ -1,0 +1,23 @@
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+
+  --paragraph: 0.875rem;
+}
+
+body {
+  background-color: var(--off-black);
+  font-family: 'Inter', sans-serif;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  height: 100dvh;
+  justify-content: center;
+  padding: 1.5rem;
+  width: 100%;
+}
