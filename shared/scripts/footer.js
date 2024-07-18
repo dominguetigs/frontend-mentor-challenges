@@ -14,13 +14,9 @@ class FooterComponent extends HTMLElement {
     const style = document.createElement('style');
     style.textContent = `
       footer {
-        bottom: 0;
-        display: none;
         font-size: 11px;
-        left: 50%;
+        margin: 0 auto;
         padding: 1rem;
-        position: fixed;
-        transform: translateX(-50%);
         width: max-content;
       }
       
@@ -34,12 +30,6 @@ class FooterComponent extends HTMLElement {
 
       footer a {
         color: hsl(228, 45%, 44%);
-      }
-      
-      @media screen and (min-width: 768px) {
-        footer {
-          display: block;
-        }
       }
     `;
 
